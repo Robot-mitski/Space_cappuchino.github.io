@@ -9,55 +9,37 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Образование
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Среднее общее, МОБУ "СОШ№6" г. Всеволожск, 2026
+* Deep Learning School: 2 семестра
+* IOAI: подготовка международной сборной России по ИИ
 
-Work experience
+Опыт работы
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Лето 2025
+  * AIRI, СберТех
+  * Задачи: сбор данных, файнтьюн модели, разработка модели
   
-Skills
+Навыки
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Языки:
+  * Русский - Родной
+  * Английский — C1 — Продвинутый
+  * Китайский — HSK3 — Элементарный
+  * Немецкий — B1 — Средний
+* Computer Science:
+  * Machine Learning (ML): работа на  Python (PyTorch, Pandas, Polars), c алгоритмами CatBoost, LGBM, Random Forest; 
+  * Computer Vision (CV): разметка изображений, обучение пред. обученных моделей (ResNet и другие)
+  * Natural Language Processing (NLP): обработка текстов с библиотеками (GLoVE, Natasha и т.п.), обучение моделей генерации текста;
 
-Publications
+Олимпиады
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Достижения (2024-2025):
+  * Финалист сборной России по ИИ (IOAI, в топ-20)
+  * Победитель: AI Challenge (2024), "Территория Возможностей 47" (IT), ЦП ПФО (2024)
+  * Призер: МФТИ “Старт в науку” (2025), ВШЭ “Высший Пилотаж” по Computer Science (2025), олимпиада DLS.
+
   
 Service and leadership
 ======
