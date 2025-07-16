@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Опыт"
+title: "Мое резюме"
 permalink: /cv/
 author_profile: true
 redirect_from:
