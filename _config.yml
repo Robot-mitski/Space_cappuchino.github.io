@@ -91,24 +91,6 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
@@ -182,10 +164,10 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /_publications/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /_portfolio/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -195,7 +177,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/year-archive/"
       type: posts
     values:
       layout: single
@@ -222,7 +204,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: ""
+      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/publications/"
       type: publications
     values:
       layout: single
@@ -231,7 +213,7 @@ defaults:
       comments: true
   # _portfolio
   - scope:
-      path: ""
+      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/notes/"
       type: portfolio
     values:
       layout: single
