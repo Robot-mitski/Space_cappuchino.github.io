@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "ru"
 site_theme               : "default"
-title                    : "Ника и кофе"
+title                    : "Моя чашка кофе"
 title_separator          : "-"
 name                     : &name "Смирнова Ника"
 description              : &description "Инфа обо мне"
