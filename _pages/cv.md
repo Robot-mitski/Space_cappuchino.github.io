@@ -39,8 +39,3 @@ redirect_from:
   * Финалист сборной России по ИИ (IOAI, в топ-20)
   * Победитель: AI Challenge (2024), "Территория Возможностей 47" (IT), ЦП ПФО (2024)
   * Призер: МФТИ “Старт в науку” (2025), ВШЭ “Высший Пилотаж” по Computer Science (2025), олимпиада DLS.
-
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
