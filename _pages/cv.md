@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Резюме"
+title: "Опыт"
 permalink: /cv/
 author_profile: true
 redirect_from:
