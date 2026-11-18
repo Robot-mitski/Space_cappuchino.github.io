@@ -1,15 +1,11 @@
 main:
+  - title: "Обо мне"
+    url: "/"
   - title: "Публикации"
-    url: "https://robot-mitski.github.io/Space_cappuchino.github.io/publications/"   
-    
+    url: "/publications/"
   - title: "Заметки"
-    url: "https://robot-mitski.github.io/Space_cappuchino.github.io/notes/"
-        
+    url: "/notes/"
   - title: "Блог"
-    url: "https://robot-mitski.github.io/Space_cappuchino.github.io/year-archive/"
-    
-  - title: "Мое резюме"
-    url: "https://robot-mitski.github.io/Space_cappuchino.github.io/cv/"
-    
-  - title: "Гид"
-    url: "https://robot-mitski.github.io/Space_cappuchino.github.io/markdown/"
+    url: "/year-archive/"
+  - title: "Резюме"
+    url: "/cv/"

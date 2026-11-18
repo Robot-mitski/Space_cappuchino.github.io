@@ -1,19 +1,9 @@
-{% include base_path %}
-
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/Robot-mitski"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' %}}
+<div class="coffee-footer">
+  <div><a class="footer-title" href="{{ '/' | relative_url }}">Моя чашка кофе</a><p>Наука, код и мысли между делом.</p></div>
+  <nav aria-label="Социальные сети">
+    <a href="https://github.com/{{ site.author.github }}">GitHub {% include arrow.svg %}</a>
+    <a href="{{ site.author.telegram }}">Telegram {% include arrow.svg %}</a>
+    <a href="{{ site.author.telegram_channel }}">Канал {% include arrow.svg %}</a>
+  </nav>
+  <small>© {{ site.time | date: '%Y' }} {{ site.name }}<br>На Jekyll · <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a></small>
 </div>

@@ -11,7 +11,8 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body class="coffee-site{% if page.layout == 'home' %} coffee-home{% endif %}">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

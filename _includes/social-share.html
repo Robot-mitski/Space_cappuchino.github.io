@@ -1,9 +1,3 @@
-{% include base_path %}
-
-<section class="page__share">
-  {% if site.data.ui-text[site.locale].share_on_label %}
-    <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
-  {% endif %}
-
-  <a href="https://t.me/space_capuchino" class="btn btn--bluesky" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Telegram"><i class="fab fa-telegram" aria-hidden="true"></i><span> Telegram"</span></a>
-
+<section class="page__share" aria-label="Поделиться страницей">
+  <a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&amp;text={{ page.title | url_encode }}" class="text-link" target="_blank" rel="noopener noreferrer">Поделиться в Telegram {% include arrow.svg %}</a>
+</section>

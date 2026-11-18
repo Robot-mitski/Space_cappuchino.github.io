@@ -11,7 +11,11 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
+<meta name="theme-color" content="#f8f5ef"/>
 
 <!-- end custom head snippets -->
+
+<link rel="stylesheet" href="{{ '/assets/css/coffee.css' | relative_url }}">
+<script>try { if (localStorage.getItem('coffee-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+<script defer src="{{ '/assets/js/coffee.js' | relative_url }}"></script>

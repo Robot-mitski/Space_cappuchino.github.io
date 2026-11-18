@@ -13,9 +13,9 @@ title                    : "Моя чашка кофе"
 title_separator          : "-"
 name                     : &name "Смирнова Ника"
 description              : &description "ML enthusiast"
-url                      : "https://robot-mitski.github.io/Space_cappuchino.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      : "https://robot-mitski.github.io"
+baseurl                  : "/Space_cappuchino.github.io"
+repository               : "Robot-mitski/Space_cappuchino.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -32,18 +32,19 @@ author:
   email            : "nika646470@gmail.com" 
 
   # Academic websites
-  github: "https://github.com/Robot-mitski"
-  kaggle: "https://www.kaggle.com/nikasmirnova"
+  github: "Robot-mitski"
+  kaggle: "nikasmirnova"
 
   # Social media
-  telegram: "https://t.me/space_capuchino"
+  telegram: "https://t.me/nika646470"
+  telegram_channel: "https://t.me/space_capuchino"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Исследовательские работы'    
   conferences:
     title: 'Conference Papers'
 
@@ -128,6 +129,8 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - UPDATE_NOTES.md
+  - PREVIEW.html
   - tmp
   - vendor
 keep_files:
@@ -164,10 +167,10 @@ collections:
     permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /_publications/
+    permalink: /publication/:path/
   portfolio:
     output: true
-    permalink: /_portfolio/
+    permalink: /notes/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -177,7 +180,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/year-archive/"
+      path: ""
       type: posts
     values:
       layout: single
@@ -204,7 +207,7 @@ defaults:
       comments: true
   # _publications
   - scope:
-      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/publications/"
+      path: ""
       type: publications
     values:
       layout: single
@@ -213,7 +216,7 @@ defaults:
       comments: true
   # _portfolio
   - scope:
-      path: "https://robot-mitski.github.io/Space_cappuchino.github.io/notes/"
+      path: ""
       type: portfolio
     values:
       layout: single
